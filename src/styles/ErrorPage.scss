@@ -1,0 +1,35 @@
+@import 'variables.scss';
+
+.error-page {
+    padding: 40px;
+    box-shadow: 0 16px 20px -18px rgba(48, 45, 45, 0.5);
+    background-color: #ffffff;
+    text-align: center;
+    h1{
+      font-size: 30px;
+      letter-spacing: -1.1px;
+      color: $gray-label;
+      margin-bottom: 20px;
+      color: $text-brown;
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: -1.1px;
+      color: #f36666;
+    }
+    img{
+      margin-bottom: 20px;
+    }
+    p{
+      color: $gray-label;
+      margin-bottom: 20px;
+    }
+    button{
+      min-width: 250px;
+    }
+  }
+
+.success-change-passsword {
+  margin-bottom: 30px;
+}
